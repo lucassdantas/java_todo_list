@@ -1,4 +1,4 @@
-**post /users  **
+<b>post /users</b>
 body (json):  
 {  
     "user":String  
