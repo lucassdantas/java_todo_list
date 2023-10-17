@@ -8,7 +8,7 @@ body (json):
   
 --------------------------
   
-**post /tasks **  
+<b>post /tasks </b>  
 headers: username, password   
 body (json):  
 {  
@@ -25,7 +25,7 @@ the title should have maximum of 50 characteres)
 
 --------------------------  
   
-**put /tasks **  
+<b>put /tasks </b>  
 headers: username, password   
 body (json):  
 {  
@@ -40,6 +40,6 @@ body (json):
   
 --------------------------  
   
-**get /tasks ** 
+<b>get /tasks </b> 
 headers: username, password    
 (this route will return the tasks of current user)   
