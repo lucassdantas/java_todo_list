@@ -15,7 +15,7 @@ body (json):
 headers: username, password   
 body (json):  
 {  
-    * "username":String,  
+    "username":String,  
     "description":String,  
     "title":String(50),  
     "priority": String,  
