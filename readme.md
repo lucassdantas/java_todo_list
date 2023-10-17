@@ -1,4 +1,4 @@
-post /users  
+**post /users  **
 body (json):  
 {  
     "user":String  
@@ -6,8 +6,9 @@ body (json):
     "password":String  
 }  
   
---------------------------  
-post /tasks   
+--------------------------
+  
+**post /tasks **  
 headers: username, password   
 body (json):  
 {  
@@ -21,8 +22,10 @@ body (json):
 (the start date shold be less than the endDate,   
 the endDate shold be bigger than startDate,   
 the title should have maximum of 50 characteres)   
+
+--------------------------  
   
-put /tasks   
+**put /tasks **  
 headers: username, password   
 body (json):  
 {  
@@ -35,6 +38,8 @@ body (json):
 }   
 (you should only change the current user tasks)  
   
-get /tasks  
+--------------------------  
+  
+**get /tasks ** 
 headers: username, password    
 (this route will return the tasks of current user)   
