@@ -1,12 +1,12 @@
-post /users 
-body (json):
-{
-    "user":String,
-    "username":String,
-    "password":String
-}
-
-
+post /users <br>
+body (json):<br>
+{<br>
+    "user":String,<br>
+    "username":String,<br>
+    "password":String<br>
+}<br>
+<br>
+--------------------------
 post /tasks 
 headers: username, password 
 body (json):
